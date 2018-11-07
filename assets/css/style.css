@@ -2,24 +2,39 @@ body, html {
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     height: 100%;
     /* overflow: hidden; */
-    background-color:black;
 }
   
 h1 {
-    font-size: 128px;
-      
+    font-size: 110px;
+    margin: 0pt;
+}
+
+h2 {
+    margin: 0pt;
+
+}
+
+h3{
+    
+    color:darkgrey;
+    text-align: left;
+    margin:5%;
+    text-align: right;
 }
   
 .title{
     
     color: darkgrey;
     margin:15%;
+    margin-bottom: 2%;
+    margin-top:10%;
 }
 
 .content{
-    color:white;
-    margin-left: 15%;
-    color: darkgrey;
+    
+    margin-left: 20%;
+    color: black;
+    margin-top:8%;
 }
 
 .content:hover{
@@ -27,6 +42,87 @@ h1 {
     color:white;
 }
 
+.bgcolor {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.rightside{
+    position: fixed;
+    top:0;
+    right:0;
+    width:15%;
+    height:100%;
+
+}
+
+.leftside{
+    position: fixed;
+    top:0;
+    left:0;
+    width:15%;
+    height:100%;
+    
+}
+
 canvas{
     position: fixed;
+    
+
+}
+
+
+
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: darkgray;
+    border-radius: 100%;
+    display: inline-block;
+    
+    margin-left:15%;
+    position: absolute;
+    
+}
+
+.dot2{
+
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 100%;
+    display: inline-block;
+    right:20%;
+    
+    position: absolute;
+}
+
+
+.dot3{
+
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    left:10%;
+    
+    position: absolute;
+}
+
+.dot4{
+
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    right:25%;
+    
+    position: absolute;
 }
